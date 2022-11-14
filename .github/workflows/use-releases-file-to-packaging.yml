@@ -100,7 +100,7 @@ jobs:
           allowUpdates: true
           token: ${{ secrets.GH_TOKEN }}
           body: |
-            This is OpenWrt firmware for ZTE B860H and Fiberhome HG680P
+            This is OpenWrt firmware for ZTE B860H and FiberHome HG680P
             * Firmware information
             Default IP: 192.168.1.1
             Default username: root
