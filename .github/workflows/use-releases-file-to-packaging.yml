@@ -11,7 +11,7 @@ on:
         type: choice
         options:
           - OpenWrt_21.02
-          - Lede_R22.11.11
+          - ROOter_21.02
       openwrt_board:
         description: "Select device board"
         required: false
@@ -24,12 +24,12 @@ on:
       openwrt_kernel:
         description: "Select kernel version"
         required: false
-        default: "5.15.1_6.0.1"
+        default: "5.15.78_6.0.8"
         type: choice
         options:
-          - 5.15.1_6.0.1
-          - 5.15.1
-          - 6.0.1
+          - 5.15.78_6.0.8
+          - 5.15.78
+          - 6.0.8
       auto_kernel:
         description: "Auto use the latest kernel"
         required: false
