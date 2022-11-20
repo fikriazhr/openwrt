@@ -24,7 +24,7 @@ script_repo="https://github.com/ophub/luci-app-amlogic/tree/main/luci-app-amlogi
 kernel_repo="https://github.com/ophub/kernel/tree/main/pub"
 version_branch="stable"
 auto_kernel="false"
-build_kernel=("5.15.78" "6.0.8")
+build_kernel=("5.4.2" "5.10.0" "5.15.5")
 # Set supported board
 build_openwrt=(
     "b860h"
