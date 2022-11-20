@@ -19,9 +19,10 @@ on:
         default: "5.15.78_6.0.8"
         type: choice
         options:
-          - 5.15.78_6.0.8
-          - 5.15.78
-          - 6.0.8
+          - 5.4.2_5.10.0_5.15.5
+          - 5.4.2
+          - 5.10.0
+          - 5.15.5
       auto_kernel:
         description: "Auto use the latest kernel"
         required: false
