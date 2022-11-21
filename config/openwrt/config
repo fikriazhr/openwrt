@@ -5286,8 +5286,8 @@ CONFIG_UnblockNeteaseMusic_NodeJS=y
 # CONFIG_PACKAGE_luci-app-v2raya is not set
 # CONFIG_PACKAGE_luci-app-verysync is not set
 # CONFIG_PACKAGE_luci-app-vlmcsd is not set
-CONFIG_PACKAGE_luci-app-vnstat=y
-# CONFIG_PACKAGE_luci-app-vnstat2 is not set
+# CONFIG_PACKAGE_luci-app-vnstat is not set
+CONFIG_PACKAGE_luci-app-vnstat2=y
 # CONFIG_PACKAGE_luci-app-vpn-policy-routing is not set
 # CONFIG_PACKAGE_luci-app-vpnbypass is not set
 # CONFIG_PACKAGE_luci-app-vsftpd is not set
