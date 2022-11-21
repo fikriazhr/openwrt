@@ -5818,7 +5818,7 @@ CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-vnstat-da is not set
 # CONFIG_PACKAGE_luci-i18n-vnstat-de is not set
 # CONFIG_PACKAGE_luci-i18n-vnstat-el is not set
-CONFIG_PACKAGE_luci-i18n-vnstat-en=y
+# CONFIG_PACKAGE_luci-i18n-vnstat-en is not set
 # CONFIG_PACKAGE_luci-i18n-vnstat-es is not set
 # CONFIG_PACKAGE_luci-i18n-vnstat-fi is not set
 # CONFIG_PACKAGE_luci-i18n-vnstat-fr is not set
@@ -5841,7 +5841,7 @@ CONFIG_PACKAGE_luci-i18n-vnstat-en=y
 # CONFIG_PACKAGE_luci-i18n-vnstat-tr is not set
 # CONFIG_PACKAGE_luci-i18n-vnstat-uk is not set
 # CONFIG_PACKAGE_luci-i18n-vnstat-vi is not set
-CONFIG_PACKAGE_luci-i18n-vnstat-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-vnstat-zh-cn is not set
 # CONFIG_PACKAGE_luci-i18n-vnstat-zh-tw is not set
 # CONFIG_PACKAGE_luci-i18n-wireguard-ar is not set
 # CONFIG_PACKAGE_luci-i18n-wireguard-bg is not set
@@ -7156,8 +7156,8 @@ CONFIG_PACKAGE_v2ray-extra=m
 # CONFIG_PACKAGE_verysync is not set
 # CONFIG_PACKAGE_vlmcsd is not set
 # CONFIG_PACKAGE_vncrepeater is not set
-CONFIG_PACKAGE_vnstat=y
-# CONFIG_PACKAGE_vnstat2 is not set
+# CONFIG_PACKAGE_vnstat is not set
+CONFIG_PACKAGE_vnstat2=y
 CONFIG_PACKAGE_vnstati=y
 # CONFIG_PACKAGE_vpn-policy-routing is not set
 # CONFIG_PACKAGE_vpnbypass is not set
