@@ -24,7 +24,7 @@ script_repo="https://github.com/lynxnexy/packages/tree/main/luci-app-amlogic/roo
 kernel_repo="https://github.com/ophub/kernel/tree/main/pub"
 version_branch="stable"
 auto_kernel="false"
-build_kernel=("5.4.2" "5.10.0" "5.15.5")
+build_kernel=("5.4.224" "5.10.155" "5.15.79")
 # Set supported board
 build_openwrt=(
     "b860h"
