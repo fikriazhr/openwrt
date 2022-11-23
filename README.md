@@ -96,4 +96,4 @@ This is a list of luci applications installed in this firmware: </br>
 `luci-app-vnstat2`\
 `luci-app-wireguard`\
 `luci-app-zerotier`\
-`etc`
+
