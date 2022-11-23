@@ -82,6 +82,11 @@ cp $GITHUB_WORKSPACE/include/common-files/patches/zsh/.zshrc .
 cp $GITHUB_WORKSPACE/include/common-files/patches/zsh/example.zsh ./.oh-my-zsh/custom/example.zsh
 popd
 
+# yt-dlp
+mkdir -p files/bin
+curl -sL https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o files/bin/yt-dlp
+chmod +x files/bin/yt-dlp
+
 # disable modemmanager
 mkdir -p feeds/luci/protocols/luci-proto-modemmanager/root/etc/uci-defaults
 cat << EOF > feeds/luci/protocols/luci-proto-modemmanager/root/etc/uci-defaults/70-modemmanager
