@@ -21,7 +21,8 @@ sed -i -e "s/CST-8/WIB-7/g" -e "s/Shanghai/Jakarta/g" package/emortal/default-se
 sed -i 's/UTC/WIB-7/g' package/base-files/files/bin/config_generate
 
 # default theme
-sed -i "s/+luci-theme-bootstrap //" feeds/luci/collections/luci/Makefile
+rm feeds/lynxnexy/luci-theme-tano/htdocs/luci-static/tano/cascade.css
+# sed -i "s/+luci-theme-bootstrap //" feeds/luci/collections/luci/Makefile
 
 # interface
 sed -i "9 i\uci set network.wan1=interface\nuci set network.wan1.proto='dhcp'\nuci set network.wan1.device='eth1'\nuci set network.wan2=interface\nuci set network.wan2.proto='dhcp'\nuci set network.wan2.device='wwan0'\nuci set network.wan3=interface\nuci set network.wan3.proto='dhcp'\nuci set network.wan3.device='usb0'\nuci commit network\n" package/emortal/default-settings/files/99-default-settings
