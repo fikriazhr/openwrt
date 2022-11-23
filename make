@@ -496,7 +496,11 @@ EOF
     [[ -x "${balethirq_file}" ]] && sed -i "/exit/i\/usr/sbin/balethirq.pl" etc/rc.local >/dev/null 2>&1
 
     # Fix themes
+    rm www/luci-static/tano/cascade.css >/dev/null 2>&1
     svn export https://github.com/lynxnexy/packages/trunk/luci-theme-tano/htdocs/luci-static/tano/cascade.css www/luci-static/tano/cascade.css >/dev/null 2>&1
+
+    # Fix luci-app-amlogic
+    chmod +x etc/init.d/amlogic >/dev/null 2>&1
 
     # Fix luci-app-3ginfo
     chmod +x usr/share/3ginfo-lite/3ginfo.sh >/dev/null 2>&1
