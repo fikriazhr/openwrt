@@ -20,7 +20,7 @@ sed -i "s/ImmortalWrt/LYNX/g" package/kernel/mac80211/files/lib/wifi/mac80211.sh
 sed -i -e "s/CST-8/WIB-7/g" -e "s/Shanghai/Jakarta/g" package/emortal/default-settings/files/99-default-settings-chinese
 sed -i 's/UTC/WIB-7/g' package/base-files/files/bin/config_generate
 
-# default theme
+# fix default theme
 rm feeds/lynxnexy/luci-theme-tano/htdocs/luci-static/tano/cascade.css
 # sed -i "s/+luci-theme-bootstrap //" feeds/luci/collections/luci/Makefile
 
