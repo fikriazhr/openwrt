@@ -18,13 +18,13 @@ Online Update: </br> Login to `OpenWrt` → `System` → `Amlogic Service` → `
 Manual Update: </br> Login to `OpenWrt` → `System` → `Amlogic Service` → `Manually Upload Update`
 
 ## Overviews
-![Overviews](https://i.ibb.co/gV4zN9Z/Screenshot-2022-11-23-20-47-37-871-com-android-chrome.jpg)
+![Overviews](https://i.ibb.co/D1rSJdf/Screenshot-2022-11-24-19-07-02-760-com-android-chrome.jpg)
 
 ## Menu
-![Menu](https://i.ibb.co/K26XWQ5/Screenshot-2022-11-23-20-48-00-186-com-android-chrome.jpg)
+![Menu](https://i.ibb.co/tp7fnm2/Screenshot-2022-11-24-19-07-10-494-com-android-chrome.jpg)
 
 ## Terminal
-![Overviews](https://i.ibb.co/tcs1c6T/Screenshot-2022-11-23-20-48-46-100-com-android-chrome.jpg)
+![Terminal](https://i.ibb.co/tbDRDnH/Screenshot-2022-11-24-19-07-28-909-com-android-chrome.jpg)
 
 ## Applications
 This is a list of luci applications installed in this firmware: </br>
