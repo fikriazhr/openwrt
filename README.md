@@ -34,7 +34,7 @@ This is a list of luci applications installed in this firmware: </br>
 `luci-app-aria2`\
 `luci-app-atinout-mod`\
 `luci-app-autoreboot`\
-`luci-app-diskman`\
+`luci-app-diskman` <sub>include</sub>\
 &emsp;&emsp;`├─ mdadm`\
 &emsp;&emsp;`├─ kmod-md-raid456`\
 &emsp;&emsp;`└─ kmod-md-linear`\
@@ -44,14 +44,14 @@ This is a list of luci applications installed in this firmware: </br>
 `luci-app-firewall`\
 `luci-app-hd-idle`\
 `luci-app-minidlna`\
-`luci-app-openclash`\
+`luci-app-openclash` <sub>include</sub>\
 &emsp;&emsp;`├─ clash`\
 &emsp;&emsp;`├─ clash_tun`\
 &emsp;&emsp;`├─ clash_meta`\
 &emsp;&emsp;`└─ v2ray-rules-dat`\
 `luci-app-openvpn`\
 `luci-app-opkg`\
-`luci-app-passwall`\
+`luci-app-passwall` <sub>include</sub>\
 &emsp;&emsp;`├─ iptables_transparent_proxy`\
 &emsp;&emsp;`├─ brook`\
 &emsp;&emsp;`├─ chinadns_ng`\
@@ -72,11 +72,11 @@ This is a list of luci applications installed in this firmware: </br>
 &emsp;&emsp;`├─ xray`\
 &emsp;&emsp;`└─ xray_plugin`\
 `luci-app-ramfree`\
-`luci-app-rclone`\
+`luci-app-rclone` <sub>include</sub>\
 &emsp;&emsp;`├─ rclone-webui`\
 &emsp;&emsp;`└─ rclone-ng`\
 `luci-app-samba4`\
-`luci-app-ssr-plus`\
+`luci-app-ssr-plus` <sub>include</sub>\
 &emsp;&emsp;`├─ shadowsocks_rust_client`\
 &emsp;&emsp;`├─ shadowsocks_rust_server`\
 &emsp;&emsp;`├─ chinadns_ng`\
