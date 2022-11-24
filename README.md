@@ -1,5 +1,5 @@
 <p align="center">
-<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/lynxnexy/openwrt/Build%20OpenWrt"> <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/lynxnexy/openwrt?label=commits"> <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/lynxnexy/openwrt">
+<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/lynxnexy/openwrt/Build%20OpenWrt"> <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/lynxnexy/openwrt?label=commits"> <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/lynxnexy/openwrt"> </br>
 <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/lynxnexy/openwrt"> <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/lynxnexy/openwrt/total">
 </p>
 
