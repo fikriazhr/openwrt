@@ -86,10 +86,3 @@ popd
 mkdir -p files/bin
 curl -sL https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o files/bin/yt-dlp
 chmod +x files/bin/yt-dlp
-
-# disable modemmanager
-mkdir -p feeds/luci/protocols/luci-proto-modemmanager/root/etc/uci-defaults
-cat << EOF > feeds/luci/protocols/luci-proto-modemmanager/root/etc/uci-defaults/70-modemmanager
-[ -f /etc/init.d/modemmanager ] && /etc/init.d/modemmanager disable
-exit 0
-EOF
