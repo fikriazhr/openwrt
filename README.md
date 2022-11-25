@@ -13,6 +13,79 @@ OpenWrt 21.02 for `ZTE B860H` and `FiberHome HG680P` with more packages ported, 
 3. Default password: `passwd`
 4. Default WIFI name: `LYNX`
 5. Default WIFI password: `none`
+<details><summary>&nbsp;This is a list of luci applications installed in this firmware:</summary>
+
+&emsp;`luci-app-3ginfo`\
+&emsp;`luci-app-adblock`\
+&emsp;`luci-app-amlogic`\
+&emsp;`luci-app-aria2`\
+&emsp;`luci-app-atinout-mod`\
+&emsp;`luci-app-autoreboot`\
+&emsp;`luci-app-diskman` <sub>include</sub>\
+&emsp;&emsp;&emsp;`├─ mdadm`\
+&emsp;&emsp;&emsp;`├─ kmod-md-raid456`\
+&emsp;&emsp;&emsp;`└─ kmod-md-linear`\
+&emsp;`luci-app-dockerman`\
+&emsp;`luci-app-eqos`\
+&emsp;`luci-app-filetransfer`\
+&emsp;`luci-app-firewall`\
+&emsp;`luci-app-hd-idle`\
+&emsp;`luci-app-minidlna`\
+&emsp;`luci-app-openclash` <sub>include</sub>\
+&emsp;&emsp;&emsp;`├─ clash`\
+&emsp;&emsp;&emsp;`├─ clash_tun`\
+&emsp;&emsp;&emsp;`├─ clash_meta`\
+&emsp;&emsp;&emsp;`└─ v2ray-rules-dat`\
+&emsp;`luci-app-openvpn`\
+&emsp;`luci-app-opkg`\
+&emsp;`luci-app-passwall` <sub>include</sub>\
+&emsp;&emsp;&emsp;`├─ iptables_transparent_proxy`\
+&emsp;&emsp;&emsp;`├─ brook`\
+&emsp;&emsp;&emsp;`├─ chinadns_ng`\
+&emsp;&emsp;&emsp;`├─ haproxy`\
+&emsp;&emsp;&emsp;`├─ hysteria`\
+&emsp;&emsp;&emsp;`├─ naiveproxy`\
+&emsp;&emsp;&emsp;`├─ shadowsocks_libev_client`\
+&emsp;&emsp;&emsp;`├─ shadowsocks_libev_server`\
+&emsp;&emsp;&emsp;`├─ shadowsocks_rust_client`\
+&emsp;&emsp;&emsp;`├─ shadowsocks_rust_server`\
+&emsp;&emsp;&emsp;`├─ shadowsocksr_libev_client`\
+&emsp;&emsp;&emsp;`├─ shadowsocksr_libev_server`\
+&emsp;&emsp;&emsp;`├─ simple_obfs`\
+&emsp;&emsp;&emsp;`├─ trojan_go`\
+&emsp;&emsp;&emsp;`├─ trojan_plus`\
+&emsp;&emsp;&emsp;`├─ v2ray`\
+&emsp;&emsp;&emsp;`├─ v2ray_plugin`\
+&emsp;&emsp;&emsp;`├─ xray`\
+&emsp;&emsp;&emsp;`└─ xray_plugin`\
+&emsp;`luci-app-ramfree`\
+&emsp;`luci-app-rclone` <sub>include</sub>\
+&emsp;&emsp;&emsp;`├─ rclone-webui`\
+&emsp;&emsp;&emsp;`└─ rclone-ng`\
+&emsp;`luci-app-samba4`\
+&emsp;`luci-app-ssr-plus` <sub>include</sub>\
+&emsp;&emsp;&emsp;`├─ shadowsocks_rust_client`\
+&emsp;&emsp;&emsp;`├─ shadowsocks_rust_server`\
+&emsp;&emsp;&emsp;`├─ chinadns_ng`\
+&emsp;&emsp;&emsp;`├─ hysteria`\
+&emsp;&emsp;&emsp;`├─ ipt2socks`\
+&emsp;&emsp;&emsp;`├─ kcptun`\
+&emsp;&emsp;&emsp;`├─ naiveproxy`\
+&emsp;&emsp;&emsp;`├─ redsocks2`\
+&emsp;&emsp;&emsp;`├─ shadowsocks_simple_obfs`\
+&emsp;&emsp;&emsp;`├─ shadowsocks_v2ray_plugin`\
+&emsp;&emsp;&emsp;`├─ shadowsocksr_libev_client`\
+&emsp;&emsp;&emsp;`├─ shadowsocksr_libev_server`\
+&emsp;&emsp;&emsp;`└─ trojan`\
+&emsp;`luci-app-statistics`\
+&emsp;`luci-app-transmission`\
+&emsp;`luci-app-ttyd`\
+&emsp;`luci-app-vnstat2`\
+&emsp;`luci-app-wireguard`\
+&emsp;`luci-app-zerotier`
+
+</details>
+
 
 ## Amlogic Service
 Install to EMMC: </br> Login to `OpenWrt` → `System` → `Amlogic Service` → `Install OpenWrt`
@@ -29,74 +102,3 @@ Manual Update: </br> Login to `OpenWrt` → `System` → `Amlogic Service` → `
 
 ## Terminal
 ![Terminal](https://i.ibb.co/tbDRDnH/Screenshot-2022-11-24-19-07-28-909-com-android-chrome.jpg)
-
-## Applications
-This is a list of luci applications installed in this firmware: </br>
-`luci-app-3ginfo`\
-`luci-app-adblock`\
-`luci-app-amlogic`\
-`luci-app-aria2`\
-`luci-app-atinout-mod`\
-`luci-app-autoreboot`\
-`luci-app-diskman` <sub>include</sub>\
-&emsp;&emsp;`├─ mdadm`\
-&emsp;&emsp;`├─ kmod-md-raid456`\
-&emsp;&emsp;`└─ kmod-md-linear`\
-`luci-app-dockerman`\
-`luci-app-eqos`\
-`luci-app-filetransfer`\
-`luci-app-firewall`\
-`luci-app-hd-idle`\
-`luci-app-minidlna`\
-`luci-app-openclash` <sub>include</sub>\
-&emsp;&emsp;`├─ clash`\
-&emsp;&emsp;`├─ clash_tun`\
-&emsp;&emsp;`├─ clash_meta`\
-&emsp;&emsp;`└─ v2ray-rules-dat`\
-`luci-app-openvpn`\
-`luci-app-opkg`\
-`luci-app-passwall` <sub>include</sub>\
-&emsp;&emsp;`├─ iptables_transparent_proxy`\
-&emsp;&emsp;`├─ brook`\
-&emsp;&emsp;`├─ chinadns_ng`\
-&emsp;&emsp;`├─ haproxy`\
-&emsp;&emsp;`├─ hysteria`\
-&emsp;&emsp;`├─ naiveproxy`\
-&emsp;&emsp;`├─ shadowsocks_libev_client`\
-&emsp;&emsp;`├─ shadowsocks_libev_server`\
-&emsp;&emsp;`├─ shadowsocks_rust_client`\
-&emsp;&emsp;`├─ shadowsocks_rust_server`\
-&emsp;&emsp;`├─ shadowsocksr_libev_client`\
-&emsp;&emsp;`├─ shadowsocksr_libev_server`\
-&emsp;&emsp;`├─ simple_obfs`\
-&emsp;&emsp;`├─ trojan_go`\
-&emsp;&emsp;`├─ trojan_plus`\
-&emsp;&emsp;`├─ v2ray`\
-&emsp;&emsp;`├─ v2ray_plugin`\
-&emsp;&emsp;`├─ xray`\
-&emsp;&emsp;`└─ xray_plugin`\
-`luci-app-ramfree`\
-`luci-app-rclone` <sub>include</sub>\
-&emsp;&emsp;`├─ rclone-webui`\
-&emsp;&emsp;`└─ rclone-ng`\
-`luci-app-samba4`\
-`luci-app-ssr-plus` <sub>include</sub>\
-&emsp;&emsp;`├─ shadowsocks_rust_client`\
-&emsp;&emsp;`├─ shadowsocks_rust_server`\
-&emsp;&emsp;`├─ chinadns_ng`\
-&emsp;&emsp;`├─ hysteria`\
-&emsp;&emsp;`├─ ipt2socks`\
-&emsp;&emsp;`├─ kcptun`\
-&emsp;&emsp;`├─ naiveproxy`\
-&emsp;&emsp;`├─ redsocks2`\
-&emsp;&emsp;`├─ shadowsocks_simple_obfs`\
-&emsp;&emsp;`├─ shadowsocks_v2ray_plugin`\
-&emsp;&emsp;`├─ shadowsocksr_libev_client`\
-&emsp;&emsp;`├─ shadowsocksr_libev_server`\
-&emsp;&emsp;`└─ trojan`\
-`luci-app-statistics`\
-`luci-app-transmission`\
-`luci-app-ttyd`\
-`luci-app-vnstat2`\
-`luci-app-wireguard`\
-`luci-app-zerotier`
