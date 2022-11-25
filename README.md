@@ -15,11 +15,9 @@ OpenWrt 21.02 for `ZTE B860H` and `FiberHome HG680P` with more packages ported, 
 5. Default WIFI password: `none`
 <details><summary>&nbsp;This is a list of luci applications installed in this firmware:</summary>
 
-&emsp;`luci-app-3ginfo`\
 &emsp;`luci-app-adblock`\
 &emsp;`luci-app-amlogic`\
 &emsp;`luci-app-aria2`\
-&emsp;`luci-app-atinout-mod`\
 &emsp;`luci-app-autoreboot`\
 &emsp;`luci-app-diskman` <sub>include</sub>\
 &emsp;&emsp;&emsp;`├─ mdadm`\
@@ -86,6 +84,24 @@ OpenWrt 21.02 for `ZTE B860H` and `FiberHome HG680P` with more packages ported, 
 
 </details>
 
+<details><summary>&nbsp;This is a modem support tool:</summary>
+
+&emsp;`luci-app-3ginfo` <sub>include</sub>\
+&emsp;&emsp;&emsp;`├─ 3ginfo`\
+&emsp;&emsp;&emsp;`├─ 3ginfo-lite`\
+&emsp;&emsp;&emsp;`├─ 3ginfo-qmisignal`\
+&emsp;&emsp;&emsp;`└─ 3ginfo-text`\
+&emsp;`luci-app-modeminfo` <sub>include</sub>\
+&emsp;&emsp;&emsp;`├─ qtools`\
+&emsp;&emsp;&emsp;`├─ xmm-modem`\
+&emsp;&emsp;&emsp;`└─ asterisk-chan-quectel`\
+&emsp;`luci-app-smstools3`\
+&emsp;`luci-app-mmcomig`\
+&emsp;`luci-app-atinout`\
+&emsp;`luci-app-cellled`
+
+
+</details>
 
 ## Amlogic Service
 Install to EMMC: </br> Login to `OpenWrt` → `System` → `Amlogic Service` → `Install OpenWrt`
