@@ -17,3 +17,4 @@
 # rm -rf package/lean/{samba4,luci-app-samba4,luci-app-ttyd}
 
 sed -i '$a src-git lynxnexy https://github.com/lynxnexy/packages' feeds.conf.default
+sed -i '$a src-git modemfeed https://github.com/koshev-msk/modemfeed' feeds.conf.default
