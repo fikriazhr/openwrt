@@ -87,7 +87,6 @@ OpenWrt 21.02 for `ZTE B860H` and `FiberHome HG680P` with more packages ported, 
 <details><summary>&nbsp;This is a modem support tools:</summary>
 
 &emsp;`luci-app-3ginfo` <sub>include</sub>\
-&emsp;&emsp;&emsp;`├─ 3ginfo`\
 &emsp;&emsp;&emsp;`├─ 3ginfo-lite`\
 &emsp;&emsp;&emsp;`├─ 3ginfo-qmisignal`\
 &emsp;&emsp;&emsp;`└─ 3ginfo-text`\
