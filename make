@@ -509,9 +509,9 @@ EOF
     chmod +x usr/share/3ginfo/scripts/*.sh >/dev/null 2>&1
     chmod +x etc/init.d/3ginfo >/dev/null 2>&1
 
-    # Fix luci-app-atinout
-    chmod +x sbin/set_at_port.sh >/dev/null 2>&1
-    chmod +x usr/bin/luci-app-atinout >/dev/null 2>&1
+    # Fix distfeeds
+    sed -i '/openwrt_lynxnexy/d' /etc/opkg/distfeeds.conf >/dev/null 2>&1
+    sed -i '/openwrt_modemfeed/d' /etc/opkg/distfeeds.conf >/dev/null 2>&1
 
     # Add firmware information
     echo "PLATFORM='amlogic'" >>${op_release} 2>/dev/null
