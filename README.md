@@ -1,11 +1,9 @@
 ## OpenWrt 21.02
 
-[<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/lynxnexy/openwrt/Build%20OpenWrt">](https://github.com/lynxnexy/openwrt/actions/workflows/build-openwrt.yml) [<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/lynxnexy/openwrt?label=commits">](https://github.com/lynxnexy/openwrt/commits) [<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/lynxnexy/openwrt">](https://github.com/lynxnexy/openwrt/watchers) </br>
+[<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/lynxnexy/openwrt/Build%20OpenWrt">](https://github.com/lynxnexy/openwrt/actions/workflows/build-openwrt.yml) [<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/lynxnexy/openwrt?label=commits">](https://github.com/lynxnexy/openwrt/commits) [<img alt="Trakteer" src="https://img.shields.io/badge/trakteer-coffee-ff69b4">](https://trakteer.id/lynxnexy/tip) </br>
 [<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/lynxnexy/openwrt">](https://github.com/lynxnexy/openwrt/releases/latest) [<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/lynxnexy/openwrt/total">](https://github.com/lynxnexy/openwrt/releases)
 
 OpenWrt 21.02 for `ZTE B860H` and `FiberHome HG680P` with more packages ported, more devices supported, better performance, and special optimizations for users. Compared the official one, we allow to use hacks or non-upstreamable patches / modifications to achieve our purpose. Source from anywhere.
-
-[<img src="https://cdn.trakteer.id/images/embed/trbtn-red-2.png" height="40" style="border:0px;height:40px;" alt="Trakteer Saya">](https://trakteer.id/lynxnexy/tip)
 
 ## Firmware information
 1. Default IP: `192.168.1.1`
