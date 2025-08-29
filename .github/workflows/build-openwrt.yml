@@ -133,7 +133,7 @@ jobs:
 
       - name: Build OpenWrt firmware
         if: ${{ steps.compile.outputs.status }} == 'success' && !cancelled()
-        uses: lynxnexy/openwrt@main
+        uses: fikriazhr/openwrt@main
         with:
           openwrt_path: openwrt/bin/targets/*/*/*rootfs.tar.gz
           openwrt_board: ${{ github.event.inputs.openwrt_board }}
